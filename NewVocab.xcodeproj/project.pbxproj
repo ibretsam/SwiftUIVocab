@@ -7,18 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF10BD942CB6DA8F00F61D1C /* FrenchNounCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */; };
+		AF1FC6C02CBBF29900944A4D /* MiniSimpleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */; };
+		AF1FC6C22CBBF2B600944A4D /* WordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */; };
+		AF23BAF52CC925C2005DA3E1 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */; };
+		AF31B9B72CC3999000C16FBC /* FrenchNoun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */; };
+		AF31B9B92CC399AF00C16FBC /* FrenchVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */; };
+		AF31B9BB2CC39A5000C16FBC /* FrenchAdjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */; };
+		AF31B9BD2CC39A8900C16FBC /* FrenchAdverb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9BC2CC39A8500C16FBC /* FrenchAdverb.swift */; };
+		AF31B9BF2CC3AB9700C16FBC /* FrenchAdjectiveCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9BE2CC3AB8C00C16FBC /* FrenchAdjectiveCustomTab.swift */; };
+		AF31B9C12CC3ABB700C16FBC /* FrenchAdverbCustomTab.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9C02CC3ABAF00C16FBC /* FrenchAdverbCustomTab.swift.swift */; };
+		AF31B9C32CC3B9C900C16FBC /* ExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9C22CC3B9C400C16FBC /* ExamplesView.swift */; };
+		AF4070162CC3BEC900A66A11 /* MiniGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4070152CC3BEBF00A66A11 /* MiniGenderView.swift */; };
+		AF4517E52CE261C900BE8909 /* LevelGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4517E42CE261C700BE8909 /* LevelGraphView.swift */; };
+		AF4517E72CE2670600BE8909 /* FrequencyGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4517E62CE2670500BE8909 /* FrequencyGraphView.swift */; };
+		AF4672D02CCCF66900C07CF3 /* ComparisionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4672CF2CCCF65F00C07CF3 /* ComparisionFormView.swift */; };
+		AF7DF5D22C98923900057E18 /* French.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DF5D12C98923900057E18 /* French.swift */; };
+		AF7DF5D52C9892E400057E18 /* WordPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DF5D42C9892E400057E18 /* WordPreview.swift */; };
+		AF8179372C9C818A002D2853 /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8179362C9C817B002D2853 /* MainViewVM.swift */; };
+		AF81793A2C9C8215002D2853 /* MainViewServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8179392C9C8210002D2853 /* MainViewServices.swift */; };
+		AF827E582C9F1604008A424D /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF827E572C9F15F6008A424D /* WordDetailView.swift */; };
+		AF827E5B2C9F1AA4008A424D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF827E5A2C9F1A9D008A424D /* Utils.swift */; };
+		AF827E5D2C9F26D1008A424D /* FrenchVerbCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF827E5C2C9F26C8008A424D /* FrenchVerbCustomTab.swift */; };
+		AF9D78992CF1D4C70062404C /* EtymologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D78982CF1D4BF0062404C /* EtymologyView.swift */; };
+		AF9D789E2CF1DBE00062404C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D789D2CF1DBE00062404C /* CustomTextField.swift */; };
+		AF9D78A52CF22EEC0062404C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D78A42CF22EEA0062404C /* Test.swift */; };
+		AF9D78A72CF22FB40062404C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D78A62CF22FB10062404C /* TestView.swift */; };
+		AFA9364B2C9DAD71003AD58F /* WordPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */; };
+		AFC852562CAAF96C00EF3D4B /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC852552CAAF96600EF3D4B /* CustomStackView.swift */; };
+		AFCA06622CD52CB1005CB180 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA06612CD52CAD005CB180 /* BackgroundView.swift */; };
+		AFD4862F2CEA3AE7008EB3E8 /* PrepositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4862E2CEA3AE2008EB3E8 /* PrepositionView.swift */; };
+		AFD486312CEB90E8008EB3E8 /* AdjectivePositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD486302CEB90E7008EB3E8 /* AdjectivePositionView.swift */; };
+		AFD486332CECDF3A008EB3E8 /* IrregularComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD486322CECDF39008EB3E8 /* IrregularComparisonView.swift */; };
 		AFE32B332C98868F0042DDF4 /* NewVocabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B322C98868F0042DDF4 /* NewVocabApp.swift */; };
-		AFE32B352C98868F0042DDF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B342C98868F0042DDF4 /* ContentView.swift */; };
+		AFE32B352C98868F0042DDF4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B342C98868F0042DDF4 /* MainView.swift */; };
 		AFE32B372C9886900042DDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE32B362C9886900042DDF4 /* Assets.xcassets */; };
 		AFE32B3A2C9886900042DDF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE32B392C9886900042DDF4 /* Preview Assets.xcassets */; };
+		AFE32B422C9887F30042DDF4 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B412C9887F30042DDF4 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchNounCustomTab.swift; sourceTree = "<group>"; };
+		AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniSimpleDetailView.swift; sourceTree = "<group>"; };
+		AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormView.swift; sourceTree = "<group>"; };
+		AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchNoun.swift; sourceTree = "<group>"; };
+		AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchVerb.swift; sourceTree = "<group>"; };
+		AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchAdjective.swift; sourceTree = "<group>"; };
+		AF31B9BC2CC39A8500C16FBC /* FrenchAdverb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchAdverb.swift; sourceTree = "<group>"; };
+		AF31B9BE2CC3AB8C00C16FBC /* FrenchAdjectiveCustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchAdjectiveCustomTab.swift; sourceTree = "<group>"; };
+		AF31B9C02CC3ABAF00C16FBC /* FrenchAdverbCustomTab.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchAdverbCustomTab.swift.swift; sourceTree = "<group>"; };
+		AF31B9C22CC3B9C400C16FBC /* ExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesView.swift; sourceTree = "<group>"; };
+		AF4070152CC3BEBF00A66A11 /* MiniGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGenderView.swift; sourceTree = "<group>"; };
+		AF4517E42CE261C700BE8909 /* LevelGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGraphView.swift; sourceTree = "<group>"; };
+		AF4517E62CE2670500BE8909 /* FrequencyGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyGraphView.swift; sourceTree = "<group>"; };
+		AF4672CF2CCCF65F00C07CF3 /* ComparisionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisionFormView.swift; sourceTree = "<group>"; };
+		AF7DF5D12C98923900057E18 /* French.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = French.swift; sourceTree = "<group>"; };
+		AF7DF5D42C9892E400057E18 /* WordPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPreview.swift; sourceTree = "<group>"; };
+		AF8179362C9C817B002D2853 /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
+		AF8179392C9C8210002D2853 /* MainViewServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewServices.swift; sourceTree = "<group>"; };
+		AF827E572C9F15F6008A424D /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		AF827E5A2C9F1A9D008A424D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AF827E5C2C9F26C8008A424D /* FrenchVerbCustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchVerbCustomTab.swift; sourceTree = "<group>"; };
+		AF9D78982CF1D4BF0062404C /* EtymologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtymologyView.swift; sourceTree = "<group>"; };
+		AF9D789D2CF1DBE00062404C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AF9D78A42CF22EEA0062404C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		AF9D78A62CF22FB10062404C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPageView.swift; sourceTree = "<group>"; };
+		AFC852552CAAF96600EF3D4B /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		AFCA06612CD52CAD005CB180 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		AFD4862E2CEA3AE2008EB3E8 /* PrepositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepositionView.swift; sourceTree = "<group>"; };
+		AFD486302CEB90E7008EB3E8 /* AdjectivePositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjectivePositionView.swift; sourceTree = "<group>"; };
+		AFD486322CECDF39008EB3E8 /* IrregularComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrregularComparisonView.swift; sourceTree = "<group>"; };
 		AFE32B2F2C98868F0042DDF4 /* NewVocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewVocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE32B322C98868F0042DDF4 /* NewVocabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVocabApp.swift; sourceTree = "<group>"; };
-		AFE32B342C98868F0042DDF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFE32B342C98868F0042DDF4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AFE32B362C9886900042DDF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFE32B392C9886900042DDF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFE32B412C9887F30042DDF4 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +98,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF1FC6BE2CBBF28900944A4D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D78982CF1D4BF0062404C /* EtymologyView.swift */,
+				AFD486322CECDF39008EB3E8 /* IrregularComparisonView.swift */,
+				AFD486302CEB90E7008EB3E8 /* AdjectivePositionView.swift */,
+				AFD4862E2CEA3AE2008EB3E8 /* PrepositionView.swift */,
+				AF4517E62CE2670500BE8909 /* FrequencyGraphView.swift */,
+				AF4517E42CE261C700BE8909 /* LevelGraphView.swift */,
+				AF4672CF2CCCF65F00C07CF3 /* ComparisionFormView.swift */,
+				AF4070152CC3BEBF00A66A11 /* MiniGenderView.swift */,
+				AF31B9C22CC3B9C400C16FBC /* ExamplesView.swift */,
+				AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */,
+				AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		AF23BAF22CC925AB005DA3E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA06612CD52CAD005CB180 /* BackgroundView.swift */,
+				AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AF31B9B52CC3997600C16FBC /* French */ = {
+			isa = PBXGroup;
+			children = (
+				AF31B9BC2CC39A8500C16FBC /* FrenchAdverb.swift */,
+				AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */,
+				AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */,
+				AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */,
+				AF7DF5D12C98923900057E18 /* French.swift */,
+			);
+			path = French;
+			sourceTree = "<group>";
+		};
+		AF7DF5D32C9892D400057E18 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AF7DF5D42C9892E400057E18 /* WordPreview.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AF8179352C9C8164002D2853 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF8179362C9C817B002D2853 /* MainViewVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF8179382C9C8200002D2853 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF8179392C9C8210002D2853 /* MainViewServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF827E592C9F1A71008A424D /* WordDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AF31B9C02CC3ABAF00C16FBC /* FrenchAdverbCustomTab.swift.swift */,
+				AF31B9BE2CC3AB8C00C16FBC /* FrenchAdjectiveCustomTab.swift */,
+				AF1FC6BE2CBBF28900944A4D /* SubViews */,
+				AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */,
+				AFC852552CAAF96600EF3D4B /* CustomStackView.swift */,
+				AF827E5C2C9F26C8008A424D /* FrenchVerbCustomTab.swift */,
+				AF827E5A2C9F1A9D008A424D /* Utils.swift */,
+				AF827E572C9F15F6008A424D /* WordDetailView.swift */,
+			);
+			path = WordDetail;
+			sourceTree = "<group>";
+		};
+		AF9D789C2CF1DBD30062404C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D789D2CF1DBE00062404C /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AFDC33E92C9B125F009FF7A6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFE32B322C98868F0042DDF4 /* NewVocabApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AFDC33EA2C9B127F009FF7A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D789C2CF1DBD30062404C /* Components */,
+				AF23BAF22CC925AB005DA3E1 /* Utils */,
+				AF827E592C9F1A71008A424D /* WordDetail */,
+				AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */,
+				AFE32B342C98868F0042DDF4 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AFE32B262C98868F0042DDF4 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +223,14 @@
 		AFE32B312C98868F0042DDF4 /* NewVocab */ = {
 			isa = PBXGroup;
 			children = (
-				AFE32B322C98868F0042DDF4 /* NewVocabApp.swift */,
-				AFE32B342C98868F0042DDF4 /* ContentView.swift */,
+				AF9D78A62CF22FB10062404C /* TestView.swift */,
+				AF9D78A42CF22EEA0062404C /* Test.swift */,
+				AF8179382C9C8200002D2853 /* Services */,
+				AF8179352C9C8164002D2853 /* ViewModel */,
+				AFDC33EA2C9B127F009FF7A6 /* Views */,
+				AFDC33E92C9B125F009FF7A6 /* App */,
+				AF7DF5D32C9892D400057E18 /* Utils */,
+				AFE32B402C9887CD0042DDF4 /* Model */,
 				AFE32B362C9886900042DDF4 /* Assets.xcassets */,
 				AFE32B382C9886900042DDF4 /* Preview Content */,
 			);
@@ -65,6 +243,15 @@
 				AFE32B392C9886900042DDF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFE32B402C9887CD0042DDF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF31B9B52CC3997600C16FBC /* French */,
+				AFE32B412C9887F30042DDF4 /* Word.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +324,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE32B352C98868F0042DDF4 /* ContentView.swift in Sources */,
+				AFC852562CAAF96C00EF3D4B /* CustomStackView.swift in Sources */,
+				AF4070162CC3BEC900A66A11 /* MiniGenderView.swift in Sources */,
+				AFCA06622CD52CB1005CB180 /* BackgroundView.swift in Sources */,
+				AFD486312CEB90E8008EB3E8 /* AdjectivePositionView.swift in Sources */,
+				AF31B9B92CC399AF00C16FBC /* FrenchVerb.swift in Sources */,
+				AF4672D02CCCF66900C07CF3 /* ComparisionFormView.swift in Sources */,
+				AF31B9BD2CC39A8900C16FBC /* FrenchAdverb.swift in Sources */,
+				AF9D789E2CF1DBE00062404C /* CustomTextField.swift in Sources */,
+				AF4517E52CE261C900BE8909 /* LevelGraphView.swift in Sources */,
+				AF31B9B72CC3999000C16FBC /* FrenchNoun.swift in Sources */,
+				AF31B9BF2CC3AB9700C16FBC /* FrenchAdjectiveCustomTab.swift in Sources */,
+				AF827E5D2C9F26D1008A424D /* FrenchVerbCustomTab.swift in Sources */,
+				AF8179372C9C818A002D2853 /* MainViewVM.swift in Sources */,
+				AFA9364B2C9DAD71003AD58F /* WordPageView.swift in Sources */,
+				AF31B9C12CC3ABB700C16FBC /* FrenchAdverbCustomTab.swift.swift in Sources */,
+				AF31B9C32CC3B9C900C16FBC /* ExamplesView.swift in Sources */,
+				AFD486332CECDF3A008EB3E8 /* IrregularComparisonView.swift in Sources */,
+				AF23BAF52CC925C2005DA3E1 /* CustomPageControl.swift in Sources */,
+				AF7DF5D52C9892E400057E18 /* WordPreview.swift in Sources */,
+				AF9D78992CF1D4C70062404C /* EtymologyView.swift in Sources */,
+				AFE32B352C98868F0042DDF4 /* MainView.swift in Sources */,
+				AF9D78A72CF22FB40062404C /* TestView.swift in Sources */,
+				AF9D78A52CF22EEC0062404C /* Test.swift in Sources */,
+				AF7DF5D22C98923900057E18 /* French.swift in Sources */,
+				AF10BD942CB6DA8F00F61D1C /* FrenchNounCustomTab.swift in Sources */,
+				AF827E5B2C9F1AA4008A424D /* Utils.swift in Sources */,
+				AF81793A2C9C8215002D2853 /* MainViewServices.swift in Sources */,
+				AF1FC6C22CBBF2B600944A4D /* WordFormView.swift in Sources */,
+				AF4517E72CE2670600BE8909 /* FrequencyGraphView.swift in Sources */,
+				AFD4862F2CEA3AE7008EB3E8 /* PrepositionView.swift in Sources */,
+				AF1FC6C02CBBF29900944A4D /* MiniSimpleDetailView.swift in Sources */,
+				AF827E582C9F1604008A424D /* WordDetailView.swift in Sources */,
+				AF31B9BB2CC39A5000C16FBC /* FrenchAdjective.swift in Sources */,
 				AFE32B332C98868F0042DDF4 /* NewVocabApp.swift in Sources */,
+				AFE32B422C9887F30042DDF4 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +489,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewVocab/Preview Content\"";
-				DEVELOPMENT_TEAM = 6736LJQ283;
+				DEVELOPMENT_TEAM = 6KC6X84323;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vocab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,8 +508,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.1a06e366a2d91fdb.NewVocab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterbi.Vocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +522,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewVocab/Preview Content\"";
-				DEVELOPMENT_TEAM = 6736LJQ283;
+				DEVELOPMENT_TEAM = 6KC6X84323;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vocab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,8 +541,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.1a06e366a2d91fdb.NewVocab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterbi.Vocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
