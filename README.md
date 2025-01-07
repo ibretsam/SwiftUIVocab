@@ -2,9 +2,9 @@
 
 A modern iOS application for learning French vocabulary with an interactive and engaging user interface. The app connects to a gRPC server to fetch vocabulary data and presents it in an intuitive, swipeable card format.
 
-## Features
+## Demo
 
-[![Watch the video](https://raw.githubusercontent.com/ibretsam/SwiftUIVocab/main/Demo/thumbnail.png)](https://raw.githubusercontent.com/ibretsam/SwiftUIVocab/main/Demo/UIDemo.mov)
+[![Demo](https://raw.githubusercontent.com/ibretsam/SwiftUIVocab/main/Demo/demo.gif)]
 
 ## Technical Stack
 
