@@ -4,33 +4,7 @@ A modern iOS application for learning French vocabulary with an interactive and 
 
 ## Features
 
-- 📚 Comprehensive French vocabulary coverage
-  - Verbs with full conjugation tables
-  - Nouns with gender forms
-  - Adjectives with comparisons
-  - Adverbs with usage examples
-
-- 🎯 Rich word details including:
-  - IPA pronunciation
-  - Text-to-speech support
-  - English translations
-  - Usage examples
-  - Etymology information
-  - Cultural notes
-  - Regional variations
-
-- 💫 Modern UI/UX
-  - Swipeable card interface
-  - Smooth animations
-  - Double-tap to like animations
-  - Detailed word view with custom transitions
-  - Context-aware color themes
-
-- 🔄 Backend Integration
-  - gRPC communication
-  - Async data fetching
-  - Offline data persistence using SwiftData
-  - Error handling with retry mechanism
+[![Watch the video](https://raw.githubusercontent.com/ibretsam/SwiftUIVocab/main/Demo/thumbnail.png)](https://raw.githubusercontent.com/ibretsam/SwiftUIVocab/main/Demo/UIDemo.mov)
 
 ## Technical Stack
 
