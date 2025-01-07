@@ -90,7 +90,7 @@ struct WordPageView: View {
                     )
                 
                 HStack {
-                    Text("/\(ipaText)/")
+                    Text("\(ipaText)")
                         .font(.title2)
                         .matchedGeometryEffect(id: ipaText, in: namespace)
                         .foregroundColor(.gray)

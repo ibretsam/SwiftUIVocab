@@ -3,14 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0981E22D0A066D001DF7A6 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = AF0981E12D0A066D001DF7A6 /* CGRPCZlib */; };
+		AF0981E42D0A066D001DF7A6 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = AF0981E32D0A066D001DF7A6 /* GRPC */; };
+		AF0981E62D0A066D001DF7A6 /* GRPCReflectionService in Frameworks */ = {isa = PBXBuildFile; productRef = AF0981E52D0A066D001DF7A6 /* GRPCReflectionService */; };
+		AF0F92F42D15DDE7007B687B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0F92F32D15DDE4007B687B /* Helper.swift */; };
 		AF10BD942CB6DA8F00F61D1C /* FrenchNounCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */; };
 		AF1FC6C02CBBF29900944A4D /* MiniSimpleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */; };
 		AF1FC6C22CBBF2B600944A4D /* WordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */; };
 		AF23BAF52CC925C2005DA3E1 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */; };
+		AF2B63BA2D0C19610052A5A6 /* VocabClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63B92D0C195E0052A5A6 /* VocabClient.swift */; };
+		AF2B63BE2D0C211C0052A5A6 /* vocab.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63BD2D0C211C0052A5A6 /* vocab.pb.swift */; };
+		AF2B63BF2D0C211C0052A5A6 /* vocab.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63BC2D0C211C0052A5A6 /* vocab.grpc.swift */; };
+		AF2B63C32D0C21B30052A5A6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63C22D0C21AA0052A5A6 /* Extensions.swift */; };
 		AF31B9B72CC3999000C16FBC /* FrenchNoun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */; };
 		AF31B9B92CC399AF00C16FBC /* FrenchVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */; };
 		AF31B9BB2CC39A5000C16FBC /* FrenchAdjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */; };
@@ -33,6 +41,7 @@
 		AF9D789E2CF1DBE00062404C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D789D2CF1DBE00062404C /* CustomTextField.swift */; };
 		AF9D78A52CF22EEC0062404C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D78A42CF22EEA0062404C /* Test.swift */; };
 		AF9D78A72CF22FB40062404C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D78A62CF22FB10062404C /* TestView.swift */; };
+		AFA30FC02D131BB400D301FA /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA30FBF2D131BB100D301FA /* Like.swift */; };
 		AFA9364B2C9DAD71003AD58F /* WordPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */; };
 		AFC852562CAAF96C00EF3D4B /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC852552CAAF96600EF3D4B /* CustomStackView.swift */; };
 		AFCA06622CD52CB1005CB180 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA06612CD52CAD005CB180 /* BackgroundView.swift */; };
@@ -47,10 +56,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0F92F32D15DDE4007B687B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchNounCustomTab.swift; sourceTree = "<group>"; };
 		AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniSimpleDetailView.swift; sourceTree = "<group>"; };
 		AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormView.swift; sourceTree = "<group>"; };
 		AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		AF2B63B92D0C195E0052A5A6 /* VocabClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabClient.swift; sourceTree = "<group>"; };
+		AF2B63BC2D0C211C0052A5A6 /* vocab.grpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocab.grpc.swift; sourceTree = "<group>"; };
+		AF2B63BD2D0C211C0052A5A6 /* vocab.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocab.pb.swift; sourceTree = "<group>"; };
+		AF2B63C22D0C21AA0052A5A6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchNoun.swift; sourceTree = "<group>"; };
 		AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchVerb.swift; sourceTree = "<group>"; };
 		AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchAdjective.swift; sourceTree = "<group>"; };
@@ -73,6 +87,7 @@
 		AF9D789D2CF1DBE00062404C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		AF9D78A42CF22EEA0062404C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AF9D78A62CF22FB10062404C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		AFA30FBF2D131BB100D301FA /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPageView.swift; sourceTree = "<group>"; };
 		AFC852552CAAF96600EF3D4B /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
 		AFCA06612CD52CAD005CB180 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
@@ -87,11 +102,18 @@
 		AFE32B412C9887F30042DDF4 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AFD7CF642D2D871D00AE0F06 /* Configs */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Configs; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		AFE32B2C2C98868F0042DDF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0981E62D0A066D001DF7A6 /* GRPCReflectionService in Frameworks */,
+				AF0981E42D0A066D001DF7A6 /* GRPC in Frameworks */,
+				AF0981E22D0A066D001DF7A6 /* CGRPCZlib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +147,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		AF2B63C12D0C21580052A5A6 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B63BC2D0C211C0052A5A6 /* vocab.grpc.swift */,
+				AF2B63BD2D0C211C0052A5A6 /* vocab.pb.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		AF31B9B52CC3997600C16FBC /* French */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +171,7 @@
 		AF7DF5D32C9892D400057E18 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AF0F92F32D15DDE4007B687B /* Helper.swift */,
 				AF7DF5D42C9892E400057E18 /* WordPreview.swift */,
 			);
 			path = Utils;
@@ -156,6 +188,7 @@
 		AF8179382C9C8200002D2853 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				AF2B63B92D0C195E0052A5A6 /* VocabClient.swift */,
 				AF8179392C9C8210002D2853 /* MainViewServices.swift */,
 			);
 			path = Services;
@@ -223,6 +256,8 @@
 		AFE32B312C98868F0042DDF4 /* NewVocab */ = {
 			isa = PBXGroup;
 			children = (
+				AFD7CF642D2D871D00AE0F06 /* Configs */,
+				AF2B63C12D0C21580052A5A6 /* Generated */,
 				AF9D78A62CF22FB10062404C /* TestView.swift */,
 				AF9D78A42CF22EEA0062404C /* Test.swift */,
 				AF8179382C9C8200002D2853 /* Services */,
@@ -248,6 +283,8 @@
 		AFE32B402C9887CD0042DDF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AFA30FBF2D131BB100D301FA /* Like.swift */,
+				AF2B63C22D0C21AA0052A5A6 /* Extensions.swift */,
 				AF31B9B52CC3997600C16FBC /* French */,
 				AFE32B412C9887F30042DDF4 /* Word.swift */,
 			);
@@ -268,6 +305,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AFD7CF642D2D871D00AE0F06 /* Configs */,
 			);
 			name = NewVocab;
 			productName = NewVocab;
@@ -298,6 +338,9 @@
 				Base,
 			);
 			mainGroup = AFE32B262C98868F0042DDF4;
+			packageReferences = (
+				AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */,
+			);
 			productRefGroup = AFE32B302C98868F0042DDF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +382,7 @@
 				AF8179372C9C818A002D2853 /* MainViewVM.swift in Sources */,
 				AFA9364B2C9DAD71003AD58F /* WordPageView.swift in Sources */,
 				AF31B9C12CC3ABB700C16FBC /* FrenchAdverbCustomTab.swift.swift in Sources */,
+				AF0F92F42D15DDE7007B687B /* Helper.swift in Sources */,
 				AF31B9C32CC3B9C900C16FBC /* ExamplesView.swift in Sources */,
 				AFD486332CECDF3A008EB3E8 /* IrregularComparisonView.swift in Sources */,
 				AF23BAF52CC925C2005DA3E1 /* CustomPageControl.swift in Sources */,
@@ -346,6 +390,7 @@
 				AF9D78992CF1D4C70062404C /* EtymologyView.swift in Sources */,
 				AFE32B352C98868F0042DDF4 /* MainView.swift in Sources */,
 				AF9D78A72CF22FB40062404C /* TestView.swift in Sources */,
+				AF2B63BA2D0C19610052A5A6 /* VocabClient.swift in Sources */,
 				AF9D78A52CF22EEC0062404C /* Test.swift in Sources */,
 				AF7DF5D22C98923900057E18 /* French.swift in Sources */,
 				AF10BD942CB6DA8F00F61D1C /* FrenchNounCustomTab.swift in Sources */,
@@ -356,6 +401,10 @@
 				AFD4862F2CEA3AE7008EB3E8 /* PrepositionView.swift in Sources */,
 				AF1FC6C02CBBF29900944A4D /* MiniSimpleDetailView.swift in Sources */,
 				AF827E582C9F1604008A424D /* WordDetailView.swift in Sources */,
+				AF2B63BE2D0C211C0052A5A6 /* vocab.pb.swift in Sources */,
+				AFA30FC02D131BB400D301FA /* Like.swift in Sources */,
+				AF2B63C32D0C21B30052A5A6 /* Extensions.swift in Sources */,
+				AF2B63BF2D0C211C0052A5A6 /* vocab.grpc.swift in Sources */,
 				AF31B9BB2CC39A5000C16FBC /* FrenchAdjective.swift in Sources */,
 				AFE32B332C98868F0042DDF4 /* NewVocabApp.swift in Sources */,
 				AFE32B422C9887F30042DDF4 /* Word.swift in Sources */,
@@ -493,7 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewVocab/Preview Content\"";
-				DEVELOPMENT_TEAM = 6KC6X84323;
+				DEVELOPMENT_TEAM = 6736LJQ283;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Vocab;
@@ -501,8 +550,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewVocab/Preview Content\"";
-				DEVELOPMENT_TEAM = 6KC6X84323;
+				DEVELOPMENT_TEAM = 6736LJQ283;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Vocab;
@@ -534,8 +583,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,6 +621,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.24.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF0981E12D0A066D001DF7A6 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+		AF0981E32D0A066D001DF7A6 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		AF0981E52D0A066D001DF7A6 /* GRPCReflectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCReflectionService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AFE32B272C98868F0042DDF4 /* Project object */;
 }

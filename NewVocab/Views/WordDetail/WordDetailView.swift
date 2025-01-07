@@ -74,7 +74,7 @@ struct HeaderView: View {
 		
 		ZStack {
 			HStack {
-				Text("/\(getIpaText(word))/")
+				Text("\(getIpaText(word))")
 					.font(.title2)
 					.foregroundStyle(.white)
 					.matchedGeometryEffect(id: getIpaText(word), in: namespace)
