@@ -4,7 +4,7 @@ A modern iOS application for learning French vocabulary with an interactive and 
 
 ## Demo
 
-[![Demo](https://raw.githubusercontent.com/ibretsam/SwiftUIVocab/main/Demo/demo.gif)]
+![](Demo/demo.gif)
 
 ## Technical Stack
 
