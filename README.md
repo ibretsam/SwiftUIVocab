@@ -3,7 +3,7 @@
 A modern iOS application for learning French vocabulary with an interactive and engaging user interface. The app connects to a gRPC server to fetch vocabulary data and presents it in an intuitive, swipeable card format.
 
 ## Demo
-![](Demo/demo.gif)
+<img src="Demo/demo.gif" alt="Demo" title="Demo" height="560"/>
 
 ## Technical Stack
 
