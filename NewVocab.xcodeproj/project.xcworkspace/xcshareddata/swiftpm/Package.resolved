@@ -1,5 +1,5 @@
 {
-  "originHash" : "b0d8975aa19f1bb7106ae78f24de3911e84189892afc3b6fe6db19bcec9e631c",
+  "originHash" : "33752ee0ea26c008d8e5ea11c1382117ee66c6c3e567e70451293d381b4c617c",
   "pins" : [
     {
       "identity" : "grpc-swift",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "8c5e99d0255c373e0330730d191a3423c57373fb",
         "version" : "1.24.2"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms.git",
+      "state" : {
+        "revision" : "f6919dfc309e7f1b56224378b11e28bab5bccc42",
+        "version" : "1.2.0"
       }
     },
     {
@@ -51,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio.git",
       "state" : {
-        "revision" : "dca6594f65308c761a9c409e09fbf35f48d50d34",
-        "version" : "2.77.0"
+        "revision" : "ba72f31e11275fc5bf060c966cf6c1f36842a291",
+        "version" : "2.79.0"
       }
     },
     {
@@ -69,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio-http2.git",
       "state" : {
-        "revision" : "eaa71bb6ae082eee5a07407b1ad0cbd8f48f9dca",
-        "version" : "1.34.1"
+        "revision" : "170f4ca06b6a9c57b811293cebcb96e81b661310",
+        "version" : "1.35.0"
       }
     },
     {
@@ -89,6 +98,15 @@
       "state" : {
         "revision" : "bbd5e63cf949b7db0c9edaf7a21e141c52afe214",
         "version" : "1.23.0"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
       }
     },
     {

@@ -30,6 +30,23 @@
 		AF4517E52CE261C900BE8909 /* LevelGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4517E42CE261C700BE8909 /* LevelGraphView.swift */; };
 		AF4517E72CE2670600BE8909 /* FrequencyGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4517E62CE2670500BE8909 /* FrequencyGraphView.swift */; };
 		AF4672D02CCCF66900C07CF3 /* ComparisionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4672CF2CCCF65F00C07CF3 /* ComparisionFormView.swift */; };
+		AF57A3FD2D4491EC00FC88C8 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A3FC2D4491EC00FC88C8 /* CGRPCZlib */; };
+		AF57A3FF2D4491EC00FC88C8 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A3FE2D4491EC00FC88C8 /* GRPC */; };
+		AF57A4012D4491EC00FC88C8 /* GRPCReflectionService in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4002D4491EC00FC88C8 /* GRPCReflectionService */; };
+		AF57A4032D44922300FC88C8 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4022D44922300FC88C8 /* CGRPCZlib */; };
+		AF57A4052D44922400FC88C8 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4042D44922400FC88C8 /* GRPC */; };
+		AF57A4072D44922400FC88C8 /* GRPCReflectionService in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4062D44922400FC88C8 /* GRPCReflectionService */; };
+		AF57A4092D44928400FC88C8 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4082D44928400FC88C8 /* CGRPCZlib */; };
+		AF57A40B2D44928400FC88C8 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A40A2D44928400FC88C8 /* GRPC */; };
+		AF57A40D2D44928400FC88C8 /* GRPCReflectionService in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A40C2D44928400FC88C8 /* GRPCReflectionService */; };
+		AF57A40F2D4492E400FC88C8 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A40E2D4492E400FC88C8 /* CGRPCZlib */; };
+		AF57A4112D4492E400FC88C8 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4102D4492E400FC88C8 /* GRPC */; };
+		AF57A4132D4492E400FC88C8 /* GRPCReflectionService in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4122D4492E400FC88C8 /* GRPCReflectionService */; };
+		AF57A4152D44933A00FC88C8 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4142D44933A00FC88C8 /* CGRPCZlib */; };
+		AF57A4172D44933A00FC88C8 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4162D44933A00FC88C8 /* GRPC */; };
+		AF57A4192D44933A00FC88C8 /* GRPCReflectionService in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A4182D44933A00FC88C8 /* GRPCReflectionService */; };
+		AF57A41C2D44936A00FC88C8 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A41B2D44936A00FC88C8 /* Algorithms */; };
+		AF57A41E2D44940000FC88C8 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = AF57A41D2D44940000FC88C8 /* Algorithms */; };
 		AF7DF5D22C98923900057E18 /* French.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DF5D12C98923900057E18 /* French.swift */; };
 		AF7DF5D52C9892E400057E18 /* WordPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DF5D42C9892E400057E18 /* WordPreview.swift */; };
 		AF8179372C9C818A002D2853 /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8179362C9C817B002D2853 /* MainViewVM.swift */; };
@@ -111,7 +128,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF57A4172D44933A00FC88C8 /* GRPC in Frameworks */,
+				AF57A4132D4492E400FC88C8 /* GRPCReflectionService in Frameworks */,
+				AF57A4052D44922400FC88C8 /* GRPC in Frameworks */,
+				AF57A4192D44933A00FC88C8 /* GRPCReflectionService in Frameworks */,
+				AF57A40B2D44928400FC88C8 /* GRPC in Frameworks */,
 				AF0981E62D0A066D001DF7A6 /* GRPCReflectionService in Frameworks */,
+				AF57A40F2D4492E400FC88C8 /* CGRPCZlib in Frameworks */,
+				AF57A3FF2D4491EC00FC88C8 /* GRPC in Frameworks */,
+				AF57A41E2D44940000FC88C8 /* Algorithms in Frameworks */,
+				AF57A4072D44922400FC88C8 /* GRPCReflectionService in Frameworks */,
+				AF57A4112D4492E400FC88C8 /* GRPC in Frameworks */,
+				AF57A4032D44922300FC88C8 /* CGRPCZlib in Frameworks */,
+				AF57A4152D44933A00FC88C8 /* CGRPCZlib in Frameworks */,
+				AF57A41C2D44936A00FC88C8 /* Algorithms in Frameworks */,
+				AF57A3FD2D4491EC00FC88C8 /* CGRPCZlib in Frameworks */,
+				AF57A4012D4491EC00FC88C8 /* GRPCReflectionService in Frameworks */,
+				AF57A4092D44928400FC88C8 /* CGRPCZlib in Frameworks */,
+				AF57A40D2D44928400FC88C8 /* GRPCReflectionService in Frameworks */,
 				AF0981E42D0A066D001DF7A6 /* GRPC in Frameworks */,
 				AF0981E22D0A066D001DF7A6 /* CGRPCZlib in Frameworks */,
 			);
@@ -340,6 +374,7 @@
 			mainGroup = AFE32B262C98868F0042DDF4;
 			packageReferences = (
 				AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */,
+				AF57A41A2D44936A00FC88C8 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = AFE32B302C98868F0042DDF4 /* Products */;
 			projectDirPath = "";
@@ -631,6 +666,14 @@
 				minimumVersion = 1.24.2;
 			};
 		};
+		AF57A41A2D44936A00FC88C8 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -648,6 +691,91 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
 			productName = GRPCReflectionService;
+		};
+		AF57A3FC2D4491EC00FC88C8 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+		AF57A3FE2D4491EC00FC88C8 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		AF57A4002D4491EC00FC88C8 /* GRPCReflectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCReflectionService;
+		};
+		AF57A4022D44922300FC88C8 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+		AF57A4042D44922400FC88C8 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		AF57A4062D44922400FC88C8 /* GRPCReflectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCReflectionService;
+		};
+		AF57A4082D44928400FC88C8 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+		AF57A40A2D44928400FC88C8 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		AF57A40C2D44928400FC88C8 /* GRPCReflectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCReflectionService;
+		};
+		AF57A40E2D4492E400FC88C8 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+		AF57A4102D4492E400FC88C8 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		AF57A4122D4492E400FC88C8 /* GRPCReflectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCReflectionService;
+		};
+		AF57A4142D44933A00FC88C8 /* CGRPCZlib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = CGRPCZlib;
+		};
+		AF57A4162D44933A00FC88C8 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		AF57A4182D44933A00FC88C8 /* GRPCReflectionService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCReflectionService;
+		};
+		AF57A41B2D44936A00FC88C8 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF57A41A2D44936A00FC88C8 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		AF57A41D2D44940000FC88C8 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF57A41A2D44936A00FC88C8 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
