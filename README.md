@@ -3,7 +3,7 @@
 A modern iOS application for learning French vocabulary with an interactive and engaging user interface. The app connects to a gRPC server to fetch vocabulary data and presents it in an intuitive, swipeable card format.
 
 <p align="center">
-  <img src="Demo/AppIcon~ios.png" alt="App Icon" title="App Icon" width="120" height="120" style="border-radius: 25px;"/>
+  <img src="Demo/AppIcon~ios.png" alt="App Icon" title="App Icon" width="120" height="120"/>
 </p>
 
 <p align="center">
