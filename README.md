@@ -3,7 +3,7 @@
 A modern iOS application for learning French vocabulary with an interactive and engaging user interface. The app connects to a gRPC server to fetch vocabulary data and presents it in an intuitive, swipeable card format.
 
 ## Demo
-![](Demo/demo.gif)
+<img src="Demo/demo.gif" alt="Demo" title="Demo" height="560" width="259"/>
 
 ## Technical Stack
 
@@ -38,7 +38,8 @@ protoc ./Vocab.Api/Protos/vocab.proto \
 ```
 
 4. Configuration
-Copy the sample config file:
+
+Initially, the app will use the mock data in `MainViewServices`. If you have your own gRPC server (I haven't finished it yet so it's not published for now), follow the instructions below:
 ```bash
 cp NewVocab/NewVocab/Config/config.sample.json NewVocab/NewVocab/Config/config.json
 ```
@@ -49,4 +50,3 @@ Update `config.json` with your server details:
     "server_port": 5002
 }
 ```
-Or you can switch to use mock data in `MainViewServices`
