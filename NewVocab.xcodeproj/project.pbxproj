@@ -14,11 +14,14 @@
 		AF10BD942CB6DA8F00F61D1C /* FrenchNounCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */; };
 		AF1FC6C02CBBF29900944A4D /* MiniSimpleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */; };
 		AF1FC6C22CBBF2B600944A4D /* WordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */; };
+		AF2024FD2D69AC69000D257D /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2024FC2D69AC63000D257D /* SidebarView.swift */; };
 		AF23BAF52CC925C2005DA3E1 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */; };
 		AF2B63BA2D0C19610052A5A6 /* VocabClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63B92D0C195E0052A5A6 /* VocabClient.swift */; };
 		AF2B63BE2D0C211C0052A5A6 /* vocab.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63BD2D0C211C0052A5A6 /* vocab.pb.swift */; };
 		AF2B63BF2D0C211C0052A5A6 /* vocab.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63BC2D0C211C0052A5A6 /* vocab.grpc.swift */; };
 		AF2B63C32D0C21B30052A5A6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B63C22D0C21AA0052A5A6 /* Extensions.swift */; };
+		AF309DB32D4BB15A00FDEB45 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF309DB22D4BB15400FDEB45 /* UserSession.swift */; };
+		AF309DB52D4BB32000FDEB45 /* UserSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF309DB42D4BB31500FDEB45 /* UserSessionManager.swift */; };
 		AF31B9B72CC3999000C16FBC /* FrenchNoun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */; };
 		AF31B9B92CC399AF00C16FBC /* FrenchVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */; };
 		AF31B9BB2CC39A5000C16FBC /* FrenchAdjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */; };
@@ -60,8 +63,22 @@
 		AF9D78A72CF22FB40062404C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D78A62CF22FB10062404C /* TestView.swift */; };
 		AFA30FC02D131BB400D301FA /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA30FBF2D131BB100D301FA /* Like.swift */; };
 		AFA9364B2C9DAD71003AD58F /* WordPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */; };
+		AFC69D2A2D5CE11600216547 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AFC69D292D5CE11600216547 /* FirebaseAnalytics */; };
+		AFC69D2C2D5CE11600216547 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = AFC69D2B2D5CE11600216547 /* FirebaseAnalyticsOnDeviceConversion */; };
+		AFC69D2E2D5CE11600216547 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = AFC69D2D2D5CE11600216547 /* FirebaseAppCheck */; };
+		AFC69D302D5CE11600216547 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AFC69D2F2D5CE11600216547 /* FirebaseAuth */; };
+		AFC69D322D5CE17700216547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFC69D312D5CE17700216547 /* GoogleService-Info.plist */; };
+		AFC69D352D5CE25B00216547 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69D342D5CE25700216547 /* AuthService.swift */; };
+		AFC69D372D5CE2D300216547 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AFC69D362D5CE2D300216547 /* FirebaseAuth */; };
+		AFC69D392D5CE2D300216547 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AFC69D382D5CE2D300216547 /* FirebaseAuthCombine-Community */; };
+		AFC69D3B2D5CE4DC00216547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69D3A2D5CE4D700216547 /* AppDelegate.swift */; };
+		AFC69D3E2D5CE62D00216547 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69D3D2D5CE62600216547 /* WelcomeScreen.swift */; };
 		AFC852562CAAF96C00EF3D4B /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC852552CAAF96600EF3D4B /* CustomStackView.swift */; };
 		AFCA06622CD52CB1005CB180 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA06612CD52CAD005CB180 /* BackgroundView.swift */; };
+		AFCF3F0F2D69D72500A516C6 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCF3F0E2D69D72400A516C6 /* SignInView.swift */; };
+		AFCF3F112D69D73B00A516C6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCF3F102D69D73900A516C6 /* SignUpView.swift */; };
+		AFCF3F132D69DF7C00A516C6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AFCF3F122D69DF7C00A516C6 /* FirebaseFirestore */; };
+		AFCF3F152D69DF7C00A516C6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AFCF3F142D69DF7C00A516C6 /* FirebaseFirestoreCombine-Community */; };
 		AFD4862F2CEA3AE7008EB3E8 /* PrepositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4862E2CEA3AE2008EB3E8 /* PrepositionView.swift */; };
 		AFD486312CEB90E8008EB3E8 /* AdjectivePositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD486302CEB90E7008EB3E8 /* AdjectivePositionView.swift */; };
 		AFD486332CECDF3A008EB3E8 /* IrregularComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD486322CECDF39008EB3E8 /* IrregularComparisonView.swift */; };
@@ -77,11 +94,14 @@
 		AF10BD932CB6DA8100F61D1C /* FrenchNounCustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchNounCustomTab.swift; sourceTree = "<group>"; };
 		AF1FC6BF2CBBF29800944A4D /* MiniSimpleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniSimpleDetailView.swift; sourceTree = "<group>"; };
 		AF1FC6C12CBBF2B500944A4D /* WordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormView.swift; sourceTree = "<group>"; };
+		AF2024FC2D69AC63000D257D /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		AF23BAF42CC925C2005DA3E1 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
 		AF2B63B92D0C195E0052A5A6 /* VocabClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabClient.swift; sourceTree = "<group>"; };
 		AF2B63BC2D0C211C0052A5A6 /* vocab.grpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocab.grpc.swift; sourceTree = "<group>"; };
 		AF2B63BD2D0C211C0052A5A6 /* vocab.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocab.pb.swift; sourceTree = "<group>"; };
 		AF2B63C22D0C21AA0052A5A6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF309DB22D4BB15400FDEB45 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		AF309DB42D4BB31500FDEB45 /* UserSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionManager.swift; sourceTree = "<group>"; };
 		AF31B9B62CC3998A00C16FBC /* FrenchNoun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchNoun.swift; sourceTree = "<group>"; };
 		AF31B9B82CC399AC00C16FBC /* FrenchVerb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchVerb.swift; sourceTree = "<group>"; };
 		AF31B9BA2CC39A4A00C16FBC /* FrenchAdjective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchAdjective.swift; sourceTree = "<group>"; };
@@ -106,8 +126,14 @@
 		AF9D78A62CF22FB10062404C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		AFA30FBF2D131BB100D301FA /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPageView.swift; sourceTree = "<group>"; };
+		AFC69D312D5CE17700216547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFC69D342D5CE25700216547 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AFC69D3A2D5CE4D700216547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC69D3D2D5CE62600216547 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		AFC852552CAAF96600EF3D4B /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
 		AFCA06612CD52CAD005CB180 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		AFCF3F0E2D69D72400A516C6 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		AFCF3F102D69D73900A516C6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		AFD4862E2CEA3AE2008EB3E8 /* PrepositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepositionView.swift; sourceTree = "<group>"; };
 		AFD486302CEB90E7008EB3E8 /* AdjectivePositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjectivePositionView.swift; sourceTree = "<group>"; };
 		AFD486322CECDF39008EB3E8 /* IrregularComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrregularComparisonView.swift; sourceTree = "<group>"; };
@@ -135,13 +161,21 @@
 				AF57A40B2D44928400FC88C8 /* GRPC in Frameworks */,
 				AF0981E62D0A066D001DF7A6 /* GRPCReflectionService in Frameworks */,
 				AF57A40F2D4492E400FC88C8 /* CGRPCZlib in Frameworks */,
+				AFC69D302D5CE11600216547 /* FirebaseAuth in Frameworks */,
 				AF57A3FF2D4491EC00FC88C8 /* GRPC in Frameworks */,
 				AF57A41E2D44940000FC88C8 /* Algorithms in Frameworks */,
 				AF57A4072D44922400FC88C8 /* GRPCReflectionService in Frameworks */,
+				AFC69D372D5CE2D300216547 /* FirebaseAuth in Frameworks */,
+				AFC69D2E2D5CE11600216547 /* FirebaseAppCheck in Frameworks */,
+				AFCF3F152D69DF7C00A516C6 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				AF57A4112D4492E400FC88C8 /* GRPC in Frameworks */,
+				AFCF3F132D69DF7C00A516C6 /* FirebaseFirestore in Frameworks */,
 				AF57A4032D44922300FC88C8 /* CGRPCZlib in Frameworks */,
 				AF57A4152D44933A00FC88C8 /* CGRPCZlib in Frameworks */,
+				AFC69D2C2D5CE11600216547 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				AFC69D392D5CE2D300216547 /* FirebaseAuthCombine-Community in Frameworks */,
 				AF57A41C2D44936A00FC88C8 /* Algorithms in Frameworks */,
+				AFC69D2A2D5CE11600216547 /* FirebaseAnalytics in Frameworks */,
 				AF57A3FD2D4491EC00FC88C8 /* CGRPCZlib in Frameworks */,
 				AF57A4012D4491EC00FC88C8 /* GRPCReflectionService in Frameworks */,
 				AF57A4092D44928400FC88C8 /* CGRPCZlib in Frameworks */,
@@ -205,6 +239,7 @@
 		AF7DF5D32C9892D400057E18 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AF309DB42D4BB31500FDEB45 /* UserSessionManager.swift */,
 				AF0F92F32D15DDE4007B687B /* Helper.swift */,
 				AF7DF5D42C9892E400057E18 /* WordPreview.swift */,
 			);
@@ -222,6 +257,7 @@
 		AF8179382C9C8200002D2853 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				AFC69D342D5CE25700216547 /* AuthService.swift */,
 				AF2B63B92D0C195E0052A5A6 /* VocabClient.swift */,
 				AF8179392C9C8210002D2853 /* MainViewServices.swift */,
 			);
@@ -251,9 +287,20 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		AFC69D3C2D5CE61F00216547 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AFCF3F102D69D73900A516C6 /* SignUpView.swift */,
+				AFCF3F0E2D69D72400A516C6 /* SignInView.swift */,
+				AFC69D3D2D5CE62600216547 /* WelcomeScreen.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		AFDC33E92C9B125F009FF7A6 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				AFC69D3A2D5CE4D700216547 /* AppDelegate.swift */,
 				AFE32B322C98868F0042DDF4 /* NewVocabApp.swift */,
 			);
 			path = App;
@@ -262,11 +309,13 @@
 		AFDC33EA2C9B127F009FF7A6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AFC69D3C2D5CE61F00216547 /* Auth */,
 				AF9D789C2CF1DBD30062404C /* Components */,
 				AF23BAF22CC925AB005DA3E1 /* Utils */,
 				AF827E592C9F1A71008A424D /* WordDetail */,
 				AFA9364A2C9DAD5F003AD58F /* WordPageView.swift */,
 				AFE32B342C98868F0042DDF4 /* MainView.swift */,
+				AF2024FC2D69AC63000D257D /* SidebarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,6 +351,7 @@
 				AFE32B402C9887CD0042DDF4 /* Model */,
 				AFE32B362C9886900042DDF4 /* Assets.xcassets */,
 				AFE32B382C9886900042DDF4 /* Preview Content */,
+				AFC69D312D5CE17700216547 /* GoogleService-Info.plist */,
 			);
 			path = NewVocab;
 			sourceTree = "<group>";
@@ -317,6 +367,7 @@
 		AFE32B402C9887CD0042DDF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AF309DB22D4BB15400FDEB45 /* UserSession.swift */,
 				AFA30FBF2D131BB100D301FA /* Like.swift */,
 				AF2B63C22D0C21AA0052A5A6 /* Extensions.swift */,
 				AF31B9B52CC3997600C16FBC /* French */,
@@ -375,6 +426,7 @@
 			packageReferences = (
 				AF0981E02D0A066D001DF7A6 /* XCRemoteSwiftPackageReference "grpc-swift" */,
 				AF57A41A2D44936A00FC88C8 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = AFE32B302C98868F0042DDF4 /* Products */;
 			projectDirPath = "";
@@ -392,6 +444,7 @@
 			files = (
 				AFE32B3A2C9886900042DDF4 /* Preview Assets.xcassets in Resources */,
 				AFE32B372C9886900042DDF4 /* Assets.xcassets in Resources */,
+				AFC69D322D5CE17700216547 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC852562CAAF96C00EF3D4B /* CustomStackView.swift in Sources */,
+				AFCF3F0F2D69D72500A516C6 /* SignInView.swift in Sources */,
 				AF4070162CC3BEC900A66A11 /* MiniGenderView.swift in Sources */,
 				AFCA06622CD52CB1005CB180 /* BackgroundView.swift in Sources */,
 				AFD486312CEB90E8008EB3E8 /* AdjectivePositionView.swift in Sources */,
@@ -414,21 +468,28 @@
 				AF31B9B72CC3999000C16FBC /* FrenchNoun.swift in Sources */,
 				AF31B9BF2CC3AB9700C16FBC /* FrenchAdjectiveCustomTab.swift in Sources */,
 				AF827E5D2C9F26D1008A424D /* FrenchVerbCustomTab.swift in Sources */,
+				AFC69D352D5CE25B00216547 /* AuthService.swift in Sources */,
 				AF8179372C9C818A002D2853 /* MainViewVM.swift in Sources */,
 				AFA9364B2C9DAD71003AD58F /* WordPageView.swift in Sources */,
+				AFCF3F112D69D73B00A516C6 /* SignUpView.swift in Sources */,
 				AF31B9C12CC3ABB700C16FBC /* FrenchAdverbCustomTab.swift.swift in Sources */,
+				AF309DB32D4BB15A00FDEB45 /* UserSession.swift in Sources */,
+				AF2024FD2D69AC69000D257D /* SidebarView.swift in Sources */,
 				AF0F92F42D15DDE7007B687B /* Helper.swift in Sources */,
 				AF31B9C32CC3B9C900C16FBC /* ExamplesView.swift in Sources */,
 				AFD486332CECDF3A008EB3E8 /* IrregularComparisonView.swift in Sources */,
 				AF23BAF52CC925C2005DA3E1 /* CustomPageControl.swift in Sources */,
 				AF7DF5D52C9892E400057E18 /* WordPreview.swift in Sources */,
+				AFC69D3B2D5CE4DC00216547 /* AppDelegate.swift in Sources */,
 				AF9D78992CF1D4C70062404C /* EtymologyView.swift in Sources */,
 				AFE32B352C98868F0042DDF4 /* MainView.swift in Sources */,
+				AFC69D3E2D5CE62D00216547 /* WelcomeScreen.swift in Sources */,
 				AF9D78A72CF22FB40062404C /* TestView.swift in Sources */,
 				AF2B63BA2D0C19610052A5A6 /* VocabClient.swift in Sources */,
 				AF9D78A52CF22EEC0062404C /* Test.swift in Sources */,
 				AF7DF5D22C98923900057E18 /* French.swift in Sources */,
 				AF10BD942CB6DA8F00F61D1C /* FrenchNounCustomTab.swift in Sources */,
+				AF309DB52D4BB32000FDEB45 /* UserSessionManager.swift in Sources */,
 				AF827E5B2C9F1AA4008A424D /* Utils.swift in Sources */,
 				AF81793A2C9C8215002D2853 /* MainViewServices.swift in Sources */,
 				AF1FC6C22CBBF2B600944A4D /* WordFormView.swift in Sources */,
@@ -674,6 +735,14 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -776,6 +845,46 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF57A41A2D44936A00FC88C8 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;
+		};
+		AFC69D292D5CE11600216547 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AFC69D2B2D5CE11600216547 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		AFC69D2D2D5CE11600216547 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		AFC69D2F2D5CE11600216547 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AFC69D362D5CE2D300216547 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AFC69D382D5CE2D300216547 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		AFCF3F122D69DF7C00A516C6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AFCF3F142D69DF7C00A516C6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC69D282D5CE11600216547 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

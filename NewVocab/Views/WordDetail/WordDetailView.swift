@@ -17,15 +17,6 @@ struct HeaderView: View {
 	
 	
 	
-	private func getWordText(_ word: FrenchWordType) -> String {
-		switch word {
-			case .verb(let verb): return verb.word
-			case .noun(let noun): return noun.word
-			case .adjective(let adj): return adj.word
-			case .adverb(let adv): return adv.word
-		}
-	}
-	
 	private func getIpaText(_ word: FrenchWordType) -> String {
 		switch word {
 			case .verb(let verb): return verb.ipa
@@ -154,20 +145,14 @@ struct WordDetailView: View {
         }
     }
     
-    var combinedGradientColors: [Color] {
-        switch word {
-        case .verb(let verb): return verb.frenchWordAttribute.wordAttribute.combinedGradientColors
-        case .noun(let noun): return noun.frenchWordAttribute.wordAttribute.combinedGradientColors
-        case .adjective(let adj): return adj.frenchWordAttribute.wordAttribute.combinedGradientColors
-        case .adverb(let adv): return adv.frenchWordAttribute.wordAttribute.combinedGradientColors
-        }
-    }
+    var combinedGradientColors: [Color]
     
     init(word: FrenchWordType, namespace: Namespace.ID, showDetail: Binding<Bool>, topEdge: CGFloat) {
         self.word = word
         self.namespace = namespace
         self._showDetail = showDetail
         self.topEdge = topEdge
+		self.combinedGradientColors = getWordColors(for: word)
         
         let pages: Int
         switch word {
@@ -280,50 +265,53 @@ struct NavigationBar: View {
 	@Binding var showDetail: Bool
 	@Binding var totalPages: Int
 	
-	
 	var body: some View {
-		VStack {
-			HStack {
-				
-				Button {
-					withAnimation(.spring()) {
-						isBookmarked.toggle()
-					}
-				} label: {
-					Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-						.font(.title2)
-						.foregroundColor(.white)
-				}
-				.contentTransition(.symbolEffect(.replace))
-				.padding(.leading, 15)
-				
-				Spacer()
-				
-				CustomPageControl(numberOfPages: totalPages, currentPage: $selectedTab)
-					.padding(.top, 10)
-				
-				Spacer()
-				
-				Button {
-					withAnimation {
-						showDetail.toggle()
-					}
-				} label: {
-					Image(systemName: "list.bullet")
-						.font(.title2)
-						.foregroundColor(.white)
-				}
-				.padding(.trailing, 15)
-			}
-			
-			Spacer()
-		}
-		.frame(height: 81)
-		.background(
+		ZStack {
+			// Blur background
 			BlurView(removeAllFilters: true)
 				.blur(radius: 20, opaque: true)
 				.background(.black.opacity(0.1))
-		)
+				.ignoresSafeArea()
+			
+			// Content
+			VStack {
+				HStack {
+					Button {
+						withAnimation(.spring()) {
+							isBookmarked.toggle()
+						}
+					} label: {
+						Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
+							.font(.title2)
+							.foregroundColor(.white)
+					}
+					.contentTransition(.symbolEffect(.replace))
+					.padding(.leading, 15)
+					
+					Spacer()
+					
+					CustomPageControl(numberOfPages: totalPages, currentPage: $selectedTab)
+						.padding(.top, 10)
+					
+					Spacer()
+					
+					Button {
+						withAnimation {
+							showDetail.toggle()
+						}
+					} label: {
+						Image(systemName: "list.bullet")
+							.font(.title2)
+							.foregroundColor(.white)
+					}
+					.padding(.trailing, 15)
+				}
+				
+				Spacer()
+			}
+			.frame(height: 81)
+		}
+		.frame(height: 81) // Apply the frame to the ZStack
 	}
 }
 

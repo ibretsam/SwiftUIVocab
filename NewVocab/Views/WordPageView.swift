@@ -11,6 +11,7 @@ struct WordPageView: View {
     let word: FrenchWordType
     let namespace: Namespace.ID
 	@State private var liked: [Like] = []
+	@State private var isLiked: Bool = false
     @State private var randomIndex: Int = 0
     @State private var synthesizer = AVSpeechSynthesizer()
     
@@ -161,6 +162,10 @@ struct WordPageView: View {
 				DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
 					liked.removeAll(where: { $0.id == id })
 				}
+				
+				UserSessionManager.shared.updateWordInteraction(wordId: word.id) { interaction in
+					interaction.isLiked = true
+				}
 			}
 		}
     }
@@ -222,6 +227,10 @@ private struct AnimatedHeartView: View {
 				x: like.tappedRect.x - 50,
 				y: like.tappedRect.y - 50
 			)
+			.onAppear() {
+				let generator = UIImpactFeedbackGenerator(style: .medium)
+				generator.impactOccurred()
+			}
 	}
 }
 

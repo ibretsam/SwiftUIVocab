@@ -41,6 +41,15 @@ func speakWord(wordText: String, synthesizer: AVSpeechSynthesizer) {
     synthesizer.speak(utterance)
 }
 
+func getWordText(_ word: FrenchWordType) -> String {
+	switch word {
+		case .verb(let verb): return verb.word
+		case .noun(let noun): return noun.word
+		case .adjective(let adj): return adj.word
+		case .adverb(let adv): return adv.word
+	}
+}
+
 struct CustomCorner: Shape {
     var corners: UIRectCorner
     var radius: CGFloat

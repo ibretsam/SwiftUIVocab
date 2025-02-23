@@ -11,16 +11,15 @@ struct WordBackgroundView: View {
     let word: FrenchWordType
     @State private var animate = false
     
-    private var combinedGradientColors: [Color] {
-        switch word {
-        case .verb(let verb): return verb.frenchWordAttribute.wordAttribute.combinedGradientColors
-        case .noun(let noun): return noun.frenchWordAttribute.wordAttribute.combinedGradientColors
-        case .adjective(let adj): return adj.frenchWordAttribute.wordAttribute.combinedGradientColors
-        case .adverb(let adv): return adv.frenchWordAttribute.wordAttribute.combinedGradientColors
-        }
-    }
+    private var combinedGradientColors: [Color]
+	
+	init(word: FrenchWordType) {
+		self.word = word
+		self.combinedGradientColors = getWordColors(for: word)
+	}
     
     var body: some View {
+		
         GeometryReader { geometry in
             ZStack {
                 // Base soft gradient
@@ -59,7 +58,7 @@ struct WordBackgroundView: View {
         }
         .ignoresSafeArea()
         .onAppear {
-            animate = true
+//            animate = true
         }
     }
 }
