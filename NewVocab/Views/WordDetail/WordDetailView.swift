@@ -193,7 +193,7 @@ struct WordDetailView: View {
                                     .onAppear {
                                         vStackHeight = vStackGeometry.size.height
                                     }
-                                    .onChange(of: vStackGeometry.size.height) { oldHeight, newHeight in
+                                    .onChange(of: vStackGeometry.size.height) { _, newHeight in
                                         vStackHeight = newHeight
                                     }
                             }
