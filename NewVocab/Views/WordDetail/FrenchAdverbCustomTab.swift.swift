@@ -108,7 +108,7 @@ struct FrenchAdverbCustomTab: View {
 	@State var secondTabHeight: CGFloat = 0
 	
 	var body: some View {
-		ScrollViewReader { proxy in
+		ScrollViewReader { _ in
 			ScrollView(.horizontal, showsIndicators: false) {
 				LazyHStack(alignment: .top, spacing: 0) {
 					ForEach(0...1, id: \.self) { index in
@@ -160,7 +160,7 @@ struct FrenchAdverbCustomTab: View {
 					}
 				}
 			))
-			.onChange(of: selectedTab) { oldValue, newValue in
+			.onChange(of: selectedTab) { _, _ in
 				stackContentHeight = selectedTab == 0 ? firstTabHeight : secondTabHeight
 			}
 		}

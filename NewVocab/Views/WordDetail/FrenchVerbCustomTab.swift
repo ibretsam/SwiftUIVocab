@@ -14,7 +14,7 @@ struct FrenchVerbCustomTab: View {
     @State private var tabHeights: [Int: CGFloat] = [:]
     
     var body: some View {
-        ScrollViewReader { proxy in
+        ScrollViewReader { _ in
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(alignment: .top, spacing: 0) {
                     // First page with index 0
@@ -29,7 +29,7 @@ struct FrenchVerbCustomTab: View {
                                         stackContentHeight = geometry.size.height
                                     }
                                 }
-                                .onChange(of: geometry.size.height) { oldValue, newValue in
+                                .onChange(of: geometry.size.height) { _, newValue in
                                     tabHeights[0] = newValue
                                     if selectedTab == 0 {
                                         stackContentHeight = newValue
@@ -51,7 +51,7 @@ struct FrenchVerbCustomTab: View {
                                             stackContentHeight = geometry.size.height
                                         }
                                     }
-                                    .onChange(of: geometry.size.height) { oldValue, newValue in
+                                    .onChange(of: geometry.size.height) { _, newValue in
                                         tabHeights[index + 1] = newValue
                                         if selectedTab == index + 1 {
                                             stackContentHeight = newValue
@@ -72,7 +72,7 @@ struct FrenchVerbCustomTab: View {
                     }
                 }
             ))
-            .onChange(of: selectedTab) { oldValue, newValue in
+            .onChange(of: selectedTab) { _, newValue in
                 if let newHeight = tabHeights[newValue] {
                     stackContentHeight = newHeight
                 }
