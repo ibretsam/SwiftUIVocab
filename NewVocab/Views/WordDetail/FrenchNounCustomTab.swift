@@ -18,7 +18,7 @@ struct FrenchNounCustomTab: View {
     }
     
     var body: some View {
-        ScrollViewReader { proxy in
+        ScrollViewReader { _ in
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(alignment: .top, spacing: 0) {
                     ForEach(0...1, id: \.self) { index in
@@ -31,7 +31,7 @@ struct FrenchNounCustomTab: View {
                                                 stackContentHeight = geometry.size.height
                                                 firstTabHeight = geometry.size.height
                                             }
-                                            .onChange(of: geometry.size.height) { oldHeight, newHeight in
+                                            .onChange(of: geometry.size.height) { _, newHeight in
                                                 firstTabHeight = newHeight
                                                 if selectedTab == 0 {
                                                     stackContentHeight = newHeight
@@ -46,7 +46,7 @@ struct FrenchNounCustomTab: View {
                                             Color.clear.onAppear {
                                                 secondTabHeight = geometry.size.height
                                             }
-                                            .onChange(of: geometry.size.height) { oldHeight, newHeight in
+                                            .onChange(of: geometry.size.height) { _, newHeight in
                                                 secondTabHeight = newHeight
                                                 if selectedTab == 1 {
                                                     stackContentHeight = newHeight
@@ -69,7 +69,7 @@ struct FrenchNounCustomTab: View {
                     }
                 }
             ))
-            .onChange(of: selectedTab) { oldValue, newValue in
+            .onChange(of: selectedTab) { _, _ in
                 stackContentHeight = selectedTab == 0 ? firstTabHeight : secondTabHeight
             }
         }
